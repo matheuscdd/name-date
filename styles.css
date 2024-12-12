@@ -1,0 +1,35 @@
+body {
+    margin-top: 30px;
+    font-family: "Cascadia Code", monospace;
+    font-size: 12pt;
+    background-color: #191919;
+    color: white;
+  }
+  
+  button {
+    display: block;
+  }
+  
+  .bg {
+    background-color: white;
+  }
+  
+  /*input hidden not works*/
+  input {
+    height: 0;
+    width: 1;
+    opacity: 0%;
+    user-select: none;
+  }
+  
+  @media (prefers-color-scheme: light) {
+    body {
+      background-color: white;
+      color: #37352f;
+    }
+  
+    .bg {
+      background-color: #37352f;
+    }
+  }
+  
